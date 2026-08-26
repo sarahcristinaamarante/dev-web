@@ -1,0 +1,201 @@
+html {
+  font-size: clamp(1rem, calc(0.5rem + 1vw), 1.625rem);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+  text-align: center;
+  padding: 3vw 0vw 3vw 0vw;
+}
+
+header nav ul li{
+  padding: 2vw 0vw 2vw 0vw;
+  color: rgb(171, 170, 170);
+}
+
+/**--Banner--**/
+section.banner{
+  padding: 2vw 2vw 2vw 1vw;
+}
+
+section.banner h2{
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+section.banner h2 span{
+  color: #458ff6;
+}
+
+section.banner p{
+  color: gray;
+  padding: 2vw 0vw 2vw 0vw;
+}
+
+section.banner p a{
+  background-color: #458ff6;
+  color: white;
+  padding: 1vw 2vw 1vw 2vw;
+  border-radius: 100px;
+}
+
+section.cuidados{
+  text-align: center;
+  padding: 1vw 2vw 1vw 2vw;
+}
+
+section.cuidados h2{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0vw 0vw 2vw 0vw;
+}
+section.cuidados h2 span{
+  border-bottom: 2px solid black;
+  padding: 0px 0px 15px 0px;
+  display: inline-block;
+}
+section.cuidados p{
+  color: #7d7987;
+}
+section.cuidados ul li{
+  border: 1px solid grey;
+  margin: 3vw 10vw 5vw 10vw;
+  text-align: left;
+  padding: 23px 23px 23px 23px;
+  border-radius: 15px;
+}
+section.cuidados p a{
+  border: 2px solid #458ff6;
+  padding: 10px 20px 10px 20px;
+  display: inline-block;
+  border-radius: 20px;
+  color: #458ff6;
+}
+section.cuidados p a:hover{
+  background-color: #458ff6;
+  color: aliceblue;
+}
+section.depoimentos{
+  background-color: #458ff6;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  margin: 12px 12px 12px 12px;
+  padding: 2vw 9vw 2vw 9vw;
+}
+section.depoimentos h2{
+  font-size: 1.7rem;
+}
+section.depoimentos h2 span{
+  border-bottom: 2px solid aliceblue;
+  display: inline-block;
+  padding: 0px 0px 10px 0px;
+  margin: 0vw 0vw 5vw 0vw;
+}
+footer{
+  background-color: #458ff6;
+  padding: 10px 10px 15px 10px;
+}
+footer ul{
+  text-align: center;
+  margin: 9px 9px 15px 9px;
+}
+footer ul li{
+  padding: 10px 0 0px 10px;
+  color: aliceblue;
+}
+footer p{
+  padding: 15px;
+  color: aliceblue;
+}
+footer h3{
+color: aliceblue;
+padding: 15px;
+}
+
+footer h4{
+  color: aliceblue;
+text-align: center;
+font-weight: bold;
+}
+footer p{
+padding: 10px 10px 15px 10px;
+}
+
+
+
+
+
+
+/**---Para desktop--**/
+
+@media only screen and (min-width: 600px) {
+
+header{
+display: flex;
+justify-content: space-between;
+padding: 3vw 10vw 3vw 10vw;
+}
+
+header nav ul{
+  display: flex;
+  gap: 30px;
+}
+
+header nav ul li:hover{
+  color: black;
+}
+
+section.banner{
+  display: flex;
+  padding: 3vw 10vw 3vw 10vw;
+  gap: 1.67vw;
+}
+
+
+section.cuidados ul{
+  display: flex;
+  justify-content: center;
+  gap: 3vw;
+}
+section.cuidados ul li{
+  margin: 0 0 0 0 ;
+  width: 20%;
+}
+
+section.depoimentos div{
+  display: flex;
+  text-align: left;
+  gap: 20px;
+
+}
+
+section.depoimentos div img{
+  width: 19vw;
+}
+footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 3vw 10vw 3vw 10vw;
+}
+
+footer div > p{
+  text-align: left;
+  padding: 3vw 1vw 1vw 1vw;
+  font-weight: 100;
+  font-size: 0.7rem;
+}
+
+footer h2{
+font-size: 0.9rem;
+padding: 3vw 0vw 0vw 0vw;
+text-align: left;
+}
+
+footer ul{
+margin: 1vw 0vw 0vw 0vw;
+text-align: left;
+font-size: 0.9rem;
+}
+}
