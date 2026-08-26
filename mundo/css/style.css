@@ -1,0 +1,148 @@
+/* === IMPORTAÇÃO DE FONTES */
+
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Fredoka:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+/*
+Fontes Disponíveis:
+// Sugiro usar esta 
+font-family: "Urbanist", sans-serif; 
+font-family: "Fredoka", sans-serif;
+font-family: "Epilogue", sans-serif;
+font-family: "Nunito", sans-serif;
+font-family: "Oswald", sans-serif;
+*/
+/* ==========================*/
+
+/* ==== FORMATAÇÃO GERAL === */
+html {
+  font-size: clamp(1rem, 2vw + 0.8rem, 3rem);
+}
+
+header a {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+
+header nav ul li {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+section.banner {
+  background-color: rgb(203, 202, 202);
+  border-radius: 10px;
+  padding: 6vw;
+  margin: 15px;
+}
+
+section.banner h1 {
+  padding: 15px 20px 15px 15px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+section.banner span {
+  color: #EF3F6E;
+}
+
+section.banner p {
+  padding: 10px 15px 25px 15px;
+  font-size: 1rem;
+  color: rgb(97, 99, 100);
+  text-align: center;
+}
+
+section.banner button {
+  background-color: #EF3F6E;
+  color: aliceblue;
+  border-radius: 2vw;
+  padding: 15px;
+  margin-left: 4rem;
+}
+
+section.banner img {
+  padding: 30px 30px 0px 30px;
+  margin: 0.5px;
+}
+
+section.projetos {
+  margin-top: 30px;
+}
+
+section.projetos h2 {
+  text-align: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  padding: 16px;
+}
+
+section.projetos div ul li span {
+  display: flex;
+  justify-content: center;
+  color: gray;
+}
+
+section.projetos div ul li p {
+  text-align: center;
+  padding: 5px 5px 20px 5px;
+}
+
+section.projetos div ul img {
+  margin-left: 0.5 rem;
+  padding: 10px;
+}
+
+section.chamada {
+  background-color: #F9DBF7;
+  padding: 10px;
+}
+
+section.chamada h3 {
+  text-align: center;
+  color: #EF3F6E;
+  font-size: 0.80rem;
+  padding: 30px 20px 20px 20px;
+  margin-top: 10px;
+}
+
+section.chamada p {
+  text-align: center;
+  font-size: 1.3rem;
+  padding: 25px 25px 30px 25px;
+}
+
+section.chamada p span {
+  color: #EF3F6E;
+}
+
+section.chamada button {
+  background-color: #F857A6;
+  color: aliceblue;
+  border-radius: 2vw;
+  padding: 15px;
+  margin-bottom: 25px;
+  margin-left: 5.6rem;
+}
+
+footer p {
+  text-align: center;
+  padding: 10px 10px 20px 10px;
+}
+
+footer ul li {
+  display: inline;
+  margin-left: 3.5rem;
+}
+
+footer ul li a {
+  padding: 5px;
+}
+
+footer img {
+  margin-left: 5.5rem;
+}
+
+/* MEDIA QUERY - DESKTOP */
+@media screen and (min-width: 600px) {
+}
